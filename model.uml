@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nyRMkE46Ee6Fi5l8XOV1GQ" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_M-RwME47Ee6Fi5l8XOV1GQ" name=" App User">
+    <eAnnotations xmi:id="_M-RwMU47Ee6Fi5l8XOV1GQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_M-RwMk47Ee6Fi5l8XOV1GQ" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CMjBEE49Ee6Fi5l8XOV1GQ" name="Авторизация"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KmNasE49Ee6Fi5l8XOV1GQ" memberEnd="_KmOBwE49Ee6Fi5l8XOV1GQ _KmOBwU49Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_KmOBwE49Ee6Fi5l8XOV1GQ" type="_CMjBEE49Ee6Fi5l8XOV1GQ" association="_KmNasE49Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_KmOBwU49Ee6Fi5l8XOV1GQ" type="_M-RwME47Ee6Fi5l8XOV1GQ" association="_KmNasE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ceE0IE49Ee6Fi5l8XOV1GQ" name="Сканирование" useCase="_7DodoE48Ee6Fi5l8XOV1GQ _O6lZ8E49Ee6Fi5l8XOV1GQ">
+    <ownedUseCase xmi:id="_7DodoE48Ee6Fi5l8XOV1GQ" name="NFC scan" subject="_ceE0IE49Ee6Fi5l8XOV1GQ"/>
+    <ownedUseCase xmi:id="_O6lZ8E49Ee6Fi5l8XOV1GQ" name="Получение информации об владельце" subject="_ceE0IE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_moziwE49Ee6Fi5l8XOV1GQ" memberEnd="_moziwU49Ee6Fi5l8XOV1GQ _moziwk49Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_moziwU49Ee6Fi5l8XOV1GQ" type="_ceE0IE49Ee6Fi5l8XOV1GQ" association="_moziwE49Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_moziwk49Ee6Fi5l8XOV1GQ" type="_M-RwME47Ee6Fi5l8XOV1GQ" association="_moziwE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_p0uFIE49Ee6Fi5l8XOV1GQ" name="Регистрация">
+    <include xmi:id="_6J91QE49Ee6Fi5l8XOV1GQ" addition="_CMjBEE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_22GQwE49Ee6Fi5l8XOV1GQ" name="Вход">
+    <include xmi:id="_7vIcQE49Ee6Fi5l8XOV1GQ" addition="_CMjBEE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="___KHAE49Ee6Fi5l8XOV1GQ" memberEnd="___KHAU49Ee6Fi5l8XOV1GQ ___KHAk49Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="___KHAU49Ee6Fi5l8XOV1GQ" type="_CMjBEE49Ee6Fi5l8XOV1GQ" association="___KHAE49Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="___KHAk49Ee6Fi5l8XOV1GQ" type="_ceE0IE49Ee6Fi5l8XOV1GQ" association="___KHAE49Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MdyK4E4-Ee6Fi5l8XOV1GQ" name="Мой профиль"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wj6EgE4-Ee6Fi5l8XOV1GQ" name="Мой профиль"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1FuC0E4-Ee6Fi5l8XOV1GQ" memberEnd="_1FuC0U4-Ee6Fi5l8XOV1GQ _1FuC0k4-Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_1FuC0U4-Ee6Fi5l8XOV1GQ" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_1FuC0E4-Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_1FuC0k4-Ee6Fi5l8XOV1GQ" type="_M-RwME47Ee6Fi5l8XOV1GQ" association="_1FuC0E4-Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2oD_UE4-Ee6Fi5l8XOV1GQ" name="добавить вещь"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WAFLEE4_Ee6Fi5l8XOV1GQ" name="Редактировать профиль"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c54UcE4_Ee6Fi5l8XOV1GQ" memberEnd="_c54UcU4_Ee6Fi5l8XOV1GQ _c54Uck4_Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_c54UcU4_Ee6Fi5l8XOV1GQ" type="_WAFLEE4_Ee6Fi5l8XOV1GQ" association="_c54UcE4_Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_c54Uck4_Ee6Fi5l8XOV1GQ" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_c54UcE4_Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gWXCYE4_Ee6Fi5l8XOV1GQ" name="Мой гардероб"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lVlVcE4_Ee6Fi5l8XOV1GQ" name="Добавить вещь"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mQuvEE4_Ee6Fi5l8XOV1GQ" memberEnd="_mQvWIE4_Ee6Fi5l8XOV1GQ _mQvWIU4_Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_mQvWIE4_Ee6Fi5l8XOV1GQ" type="_gWXCYE4_Ee6Fi5l8XOV1GQ" association="_mQuvEE4_Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_mQvWIU4_Ee6Fi5l8XOV1GQ" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_mQuvEE4_Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pLl9sE4_Ee6Fi5l8XOV1GQ" memberEnd="_pLl9sU4_Ee6Fi5l8XOV1GQ _pLl9sk4_Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_pLl9sU4_Ee6Fi5l8XOV1GQ" type="_lVlVcE4_Ee6Fi5l8XOV1GQ" association="_pLl9sE4_Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_pLl9sk4_Ee6Fi5l8XOV1GQ" type="_gWXCYE4_Ee6Fi5l8XOV1GQ" association="_pLl9sE4_Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pqVvME4_Ee6Fi5l8XOV1GQ" name="передать вещь "/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qoZ58E4_Ee6Fi5l8XOV1GQ" memberEnd="_qoahAE4_Ee6Fi5l8XOV1GQ _qoahAU4_Ee6Fi5l8XOV1GQ">
+    <ownedEnd xmi:id="_qoahAE4_Ee6Fi5l8XOV1GQ" type="_gWXCYE4_Ee6Fi5l8XOV1GQ" association="_qoZ58E4_Ee6Fi5l8XOV1GQ"/>
+    <ownedEnd xmi:id="_qoahAU4_Ee6Fi5l8XOV1GQ" type="_pqVvME4_Ee6Fi5l8XOV1GQ" association="_qoZ58E4_Ee6Fi5l8XOV1GQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HLuvIFVUEe6XoMEIuLlE9Q" name="user" visibility="public"/>
+</uml:Model>
