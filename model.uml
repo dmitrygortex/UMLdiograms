@@ -38,7 +38,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_nKoW4FVjEe6XoMEIuLlE9Q" memberEnd="_nKo98FVjEe6XoMEIuLlE9Q _nKo98VVjEe6XoMEIuLlE9Q">
     <ownedEnd xmi:id="_nKo98FVjEe6XoMEIuLlE9Q" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_nKoW4FVjEe6XoMEIuLlE9Q"/>
-    <ownedEnd xmi:id="_nKo98VVjEe6XoMEIuLlE9Q" type="_2oD_UE4-Ee6Fi5l8XOV1GQ" association="_nKoW4FVjEe6XoMEIuLlE9Q"/>
+    <ownedEnd xmi:id="_nKo98VVjEe6XoMEIuLlE9Q" association="_nKoW4FVjEe6XoMEIuLlE9Q"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_wvy6UFVjEe6XoMEIuLlE9Q" name="Наши коллекции" useCase="_4JS3cFVjEe6XoMEIuLlE9Q _EClZoFVkEe6XoMEIuLlE9Q">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_4JS3cFVjEe6XoMEIuLlE9Q" name="Просмотр коллекций и вещей" subject="_wvy6UFVjEe6XoMEIuLlE9Q">
@@ -50,13 +50,13 @@
     <ownedEnd xmi:id="_b-R9wVVkEe6XoMEIuLlE9Q" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_b-R9wFVkEe6XoMEIuLlE9Q"/>
     <ownedEnd xmi:id="_b-R9wlVkEe6XoMEIuLlE9Q" association="_b-R9wFVkEe6XoMEIuLlE9Q"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_hRYPEFVkEe6XoMEIuLlE9Q" name="Профиль " useCase="_wj6EgE4-Ee6Fi5l8XOV1GQ _WAFLEE4_Ee6Fi5l8XOV1GQ _gWXCYE4_Ee6Fi5l8XOV1GQ _2oD_UE4-Ee6Fi5l8XOV1GQ _pqVvME4_Ee6Fi5l8XOV1GQ _lVlVcE4_Ee6Fi5l8XOV1GQ">
+  <packagedElement xmi:type="uml:Component" xmi:id="_hRYPEFVkEe6XoMEIuLlE9Q" name="Профиль " useCase="_wj6EgE4-Ee6Fi5l8XOV1GQ _WAFLEE4_Ee6Fi5l8XOV1GQ _gWXCYE4_Ee6Fi5l8XOV1GQ _pqVvME4_Ee6Fi5l8XOV1GQ _lVlVcE4_Ee6Fi5l8XOV1GQ _hce1YFVwEe6lKrDbA7wn2Q">
     <ownedUseCase xmi:id="_wj6EgE4-Ee6Fi5l8XOV1GQ" name="Мой профиль" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
     <ownedUseCase xmi:id="_WAFLEE4_Ee6Fi5l8XOV1GQ" name="Редактировать профиль" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
     <ownedUseCase xmi:id="_gWXCYE4_Ee6Fi5l8XOV1GQ" name="Мой гардероб" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
-    <ownedUseCase xmi:id="_2oD_UE4-Ee6Fi5l8XOV1GQ" name="добавить вещь" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
     <ownedUseCase xmi:id="_pqVvME4_Ee6Fi5l8XOV1GQ" name="передать вещь " subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
     <ownedUseCase xmi:id="_lVlVcE4_Ee6Fi5l8XOV1GQ" name="Добавить вещь" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hce1YFVwEe6lKrDbA7wn2Q" name="Доступ к комьюнити" subject="_hRYPEFVkEe6XoMEIuLlE9Q"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qcGAQFVmEe6XoMEIuLlE9Q" memberEnd="_qcGAQVVmEe6XoMEIuLlE9Q _qcGAQlVmEe6XoMEIuLlE9Q">
     <ownedEnd xmi:id="_qcGAQVVmEe6XoMEIuLlE9Q" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_qcGAQFVmEe6XoMEIuLlE9Q"/>
@@ -73,5 +73,13 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_GTAcwFVnEe6XoMEIuLlE9Q" memberEnd="_GTAcwVVnEe6XoMEIuLlE9Q _GTAcwlVnEe6XoMEIuLlE9Q">
     <ownedEnd xmi:id="_GTAcwVVnEe6XoMEIuLlE9Q" type="_7DodoE48Ee6Fi5l8XOV1GQ" association="_GTAcwFVnEe6XoMEIuLlE9Q"/>
     <ownedEnd xmi:id="_GTAcwlVnEe6XoMEIuLlE9Q" type="_M-RwME47Ee6Fi5l8XOV1GQ" association="_GTAcwFVnEe6XoMEIuLlE9Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g7mV4FVwEe6lKrDbA7wn2Q" memberEnd="_g7m88FVwEe6lKrDbA7wn2Q _g7m88VVwEe6lKrDbA7wn2Q">
+    <ownedEnd xmi:id="_g7m88FVwEe6lKrDbA7wn2Q" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_g7mV4FVwEe6lKrDbA7wn2Q"/>
+    <ownedEnd xmi:id="_g7m88VVwEe6lKrDbA7wn2Q" type="_WAFLEE4_Ee6Fi5l8XOV1GQ" association="_g7mV4FVwEe6lKrDbA7wn2Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j_tAEFVwEe6lKrDbA7wn2Q" memberEnd="_j_tAEVVwEe6lKrDbA7wn2Q _j_tAElVwEe6lKrDbA7wn2Q">
+    <ownedEnd xmi:id="_j_tAEVVwEe6lKrDbA7wn2Q" type="_wj6EgE4-Ee6Fi5l8XOV1GQ" association="_j_tAEFVwEe6lKrDbA7wn2Q"/>
+    <ownedEnd xmi:id="_j_tAElVwEe6lKrDbA7wn2Q" type="_hce1YFVwEe6lKrDbA7wn2Q" association="_j_tAEFVwEe6lKrDbA7wn2Q"/>
   </packagedElement>
 </uml:Model>
